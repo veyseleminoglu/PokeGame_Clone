@@ -4,61 +4,29 @@
 
 Bu proje, React + Vite kullanılarak oluşturulmuş küçük bir demo uygulamadır. Amacı; yeniden kullanılabilir bileşenler, uzak görsel yükleme ve temiz stil ile kart tabanlı bir arayüz göstermek. Bileşenler `class` tabanlıdır ve temel CSS ile şekillendirilmiştir.
 
-## 🚀 Hızlı Başlangıç
+# Pokémon Card Game
 
-1. Depoyu klonlayın:
+## 📝 Description
 
-```bash
-git clone https://github.com/veyseleminoglu/PokeGame_Clone.git
-cd PokeGame_Clone
-```
+A compact React + Vite demo that displays Pokémon cards using official artwork. Implemented with class components and plain CSS, the project demonstrates component composition, image loading from a remote source, and polished card styling.
 
-2. Bağımlılıkları yükleyin ve geliştirme sunucusunu başlatın:
+## 🛠️ Technologies
 
-```bash
-npm install
-npm run dev
-```
+- React
+- React DOM
+- Vite
+- CSS (Flexbox, gradients, box-shadow)
 
-Tarayıcıda `http://localhost:5173` (veya Vite'in atadığı port) adresini açın.
+## 📸 Demo GIF
 
-## 🖼️ Demo (GIF yerleştirme)
-
-- GIF dosyanızı proje kökündeki `public/` klasörüne `demo.gif` olarak koyun: `public/demo.gif`
-- README'de ham dosya yolu kullanılıyor, bu yüzden GitHub doğrudan şu bağlantıdan erişir ve oynatmayı dener:
+- Place your animated preview at `public/demo.gif` (project `public/` folder).
+- This README references the raw file so GitHub can access it directly:
 
 https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif
 
-Ayrıca README içinde görüntülenir:
-
 ![Demo](https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif)
 
-> Not: GitHub bazı tarayıcı/önizleme kombinasyonlarında animasyonu statik kare olarak gösterebilir. Raw URL'yi yeni sekmede açmak her zaman animasyonu oynatır.
-
-## 📁 Proje Yapısı (Önemli Dosyalar)
-
-```
-public/               # Statik varlıklar, demo.gif buraya konur
-src/
-  App.jsx
-  main.jsx
-  Pokecard.jsx
-  Pokedex.jsx
-  *.css
-```
-
-## 🛠️ Teknolojiler
-
-- React (class components)
-- Vite (dev server & build)
-- CSS (modern gradient & shadow styling)
-
-## ℹ️ Notlar
-
-- Görseller resmi PokéAPI sprites depo bağlantısından çekilir.
-- Demo GIF için ideal boyut: düşük-orta çözünürlük, kısa süre, <10MB.
-
-## 📬 İletişim
+If GitHub's preview does not animate in your browser, open the raw URL in a new tab to play the animation.
 
 Repo: https://github.com/veyseleminoglu/PokeGame_Clone
 
