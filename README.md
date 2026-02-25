@@ -1,86 +1,44 @@
-## Pokémon Card Game — README (Concise & Professional)
+# 🎮 Pokémon Card Game
 
-Brief: A focused React + Vite demo that renders responsive Pokémon cards using official artwork. Components are implemented with React class components and styled with modern CSS for a polished presentation.
+## 📝 Açıklama
 
-Key Points
+Bu proje, React + Vite kullanılarak oluşturulmuş küçük bir demo uygulamadır. Amacı; yeniden kullanılabilir bileşenler, uzak görsel yükleme ve temiz stil ile kart tabanlı bir arayüz göstermek. Bileşenler `class` tabanlıdır ve temel CSS ile şekillendirilmiştir.
 
-- Purpose: Portfolio/demo project showcasing component composition and simple API-driven UI.
-- Status: Development-ready. Use `npm run dev` for local development with HMR.
+## 🚀 Hızlı Başlangıç
 
-Quick Start
-
-1. Clone:
+1. Depoyu klonlayın:
 
 ```bash
 git clone https://github.com/veyseleminoglu/PokeGame_Clone.git
 cd PokeGame_Clone
 ```
 
-2. Install & run:
+2. Bağımlılıkları yükleyin ve geliştirme sunucusunu başlatın:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Build
+Tarayıcıda `http://localhost:5173` (veya Vite'in atadığı port) adresini açın.
 
-```bash
-npm run build
-npm run preview
-```
+## 🖼️ Demo (GIF yerleştirme)
 
-# Pokémon Card Game — Project Overview
+- GIF dosyanızı proje kökündeki `public/` klasörüne `demo.gif` olarak koyun: `public/demo.gif`
+- README'de ham dosya yolu kullanılıyor, bu yüzden GitHub doğrudan şu bağlantıdan erişir ve oynatmayı dener:
 
-## Short description
+https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif
 
-A polished demo built with React and Vite that renders Pokémon cards using official artwork. Implemented with class components and clean CSS to showcase component structure, image loading, and visual styling.
-
-## Quick start
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/veyseleminoglu/PokeGame_Clone.git
-cd PokeGame_Clone
-```
-
-2. Install & run locally:
-
-```bash
-npm install
-npm run dev
-```
-
-Open `http://localhost:5173` (Vite may choose another port).
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Demo GIF (placement)
-
-- Place an animated preview at `public/demo.gif` (project `public/` folder).
-- This README links the raw file so GitHub can load it directly:
+Ayrıca README içinde görüntülenir:
 
 ![Demo](https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif)
 
-If GitHub's preview shows a static frame for your browser, open the raw URL to play it:
-https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif
+> Not: GitHub bazı tarayıcı/önizleme kombinasyonlarında animasyonu statik kare olarak gösterebilir. Raw URL'yi yeni sekmede açmak her zaman animasyonu oynatır.
 
-## Project highlights
-
-- Reusable components: `Pokedex` (list) and `Pokecard` (item).
-- Images sourced from the official PokéAPI sprites repository.
-- Styled with responsive CSS and layered box-shadows for depth.
-
-## Essential structure
+## 📁 Proje Yapısı (Önemli Dosyalar)
 
 ```
-public/               # static assets (put demo.gif here)
+public/               # Statik varlıklar, demo.gif buraya konur
 src/
   App.jsx
   main.jsx
@@ -89,13 +47,21 @@ src/
   *.css
 ```
 
-## Notes
+## 🛠️ Teknolojiler
 
-- Keep `public/demo.gif` reasonably sized (under ~10MB) and moderate resolution for best preview performance.
-- If you want guaranteed animation in the README, I can host the GIF externally (Imgur/Giphy) and update the link.
+- React (class components)
+- Vite (dev server & build)
+- CSS (modern gradient & shadow styling)
 
-## Contact
+## ℹ️ Notlar
 
-- Repo: https://github.com/veyseleminoglu/PokeGame_Clone
+- Görseller resmi PokéAPI sprites depo bağlantısından çekilir.
+- Demo GIF için ideal boyut: düşük-orta çözünürlük, kısa süre, <10MB.
 
-If you want minor edits (one-line blurb, license badge, or CI badge), tell me which and I'll add them.
+## 📬 İletişim
+
+Repo: https://github.com/veyseleminoglu/PokeGame_Clone
+
+---
+
+İsterseniz bu README'ye kısa bir proje açıklaması (bir cümle), lisans etiketi veya bir "live demo" bağlantısı ekleyebilirim.
