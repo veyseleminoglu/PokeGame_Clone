@@ -30,20 +30,57 @@ npm run build
 npm run preview
 ```
 
-Demo GIF (where to place)
+# Pokémon Card Game — Project Overview
 
-- Add your animated preview to `public/demo.gif` (project `public/` folder).
-- This README references the raw file so GitHub can load it directly:
+## Short description
+
+A polished demo built with React and Vite that renders Pokémon cards using official artwork. Implemented with class components and clean CSS to showcase component structure, image loading, and visual styling.
+
+## Quick start
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/veyseleminoglu/PokeGame_Clone.git
+cd PokeGame_Clone
+```
+
+2. Install & run locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` (Vite may choose another port).
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Demo GIF (placement)
+
+- Place an animated preview at `public/demo.gif` (project `public/` folder).
+- This README links the raw file so GitHub can load it directly:
 
 ![Demo](https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif)
 
-If the README preview does not animate on GitHub, open the raw URL in a new tab:
+If GitHub's preview shows a static frame for your browser, open the raw URL to play it:
 https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif
 
-Project Structure (essential)
+## Project highlights
+
+- Reusable components: `Pokedex` (list) and `Pokecard` (item).
+- Images sourced from the official PokéAPI sprites repository.
+- Styled with responsive CSS and layered box-shadows for depth.
+
+## Essential structure
 
 ```
-public/               # static assets (place demo.gif here)
+public/               # static assets (put demo.gif here)
 src/
   App.jsx
   main.jsx
@@ -52,13 +89,13 @@ src/
   *.css
 ```
 
-Notes
+## Notes
 
-- Keep `public/demo.gif` under ~10MB for best compatibility.
-- If GitHub still shows a static frame, external hosting (Imgur/Giphy) or GitHub Releases often preserves animation reliably.
+- Keep `public/demo.gif` reasonably sized (under ~10MB) and moderate resolution for best preview performance.
+- If you want guaranteed animation in the README, I can host the GIF externally (Imgur/Giphy) and update the link.
 
-Contact
+## Contact
 
 - Repo: https://github.com/veyseleminoglu/PokeGame_Clone
 
-If you want, I can also add a short one-line project blurb, license badge, or CI/build status badges.
+If you want minor edits (one-line blurb, license badge, or CI badge), tell me which and I'll add them.
