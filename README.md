@@ -10,6 +10,14 @@ A modern React application displaying Pokémon cards with detailed information. 
 - **Fast Development**: Powered by Vite for instant HMR (Hot Module Replacement)
 - **ESLint Integration**: Code quality checks configured
 
+## 📸 Preview
+
+Add a GIF or screenshot in the `public/` folder as `demo.gif` and the image will display here:
+
+```markdown
+![Pokémon Cards Demo](public/demo.gif)
+```
+
 ## 🛠️ Tech Stack
 
 - **React 19.2.0** - UI library
