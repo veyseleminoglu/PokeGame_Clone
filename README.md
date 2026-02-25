@@ -13,8 +13,7 @@ A modern React application displaying Pokémon cards with detailed information. 
 ## 📸 Preview
 
 ```markdown
-![Kayıt 2026-02-25 234330](https://github.com/user-attachments/assets/bf56890d-b41b-49e1-af45-7d2cf3853c86)
-
+![Pokémon Cards Demo](https://raw.githubusercontent.com/veyseleminoglu/PokeGame_Clone/main/public/demo.gif)
 ```
 
 ## 🛠️ Tech Stack
